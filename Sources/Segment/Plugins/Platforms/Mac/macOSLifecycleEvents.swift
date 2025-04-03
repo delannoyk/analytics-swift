@@ -98,7 +98,7 @@ class macOSLifecycleEvents: PlatformPlugin, macOSLifecycle {
             return
         }
         
-        analytics?.track(name: "Application Foregrounded")
+//        analytics?.track(name: "Application Foregrounded")
         
         // Lets check if we skipped application:didFinishLaunchingWithOptions,
         // if so, lets call it.

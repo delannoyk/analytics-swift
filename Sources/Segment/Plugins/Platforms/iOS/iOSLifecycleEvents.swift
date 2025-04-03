@@ -96,10 +96,10 @@ class iOSLifecycleEvents: PlatformPlugin, iOSLifecycle {
     }
     
     func applicationDidBecomeActive(application: UIApplication?) {
-        if analytics?.configuration.values.trackApplicationLifecycleEvents == false {
-            return
-        }
-        analytics?.track(name: "Application Foregrounded")
+//        if analytics?.configuration.values.trackApplicationLifecycleEvents == false {
+//            return
+//        }
+//        analytics?.track(name: "Application Foregrounded")
     }
 }
 
